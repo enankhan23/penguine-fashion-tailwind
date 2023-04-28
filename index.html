@@ -14,6 +14,8 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        penguin: '#FFFBF0',
+                        price: '#FABE4C',
                     }
                 }
             }
@@ -22,10 +24,10 @@
 </head>
 
 <body>
-    <header>
-        <section class="container mx-auto">
+    <header class="bg-penguin pb-32 pt-12">
+        <section class="container mx-auto sm:flex items-center justify-around">
             <div class="space-y-6">
-                <h1 class="text-5xl uppercase font-bold">
+                <h1 class="text-2xl sm:text-5xl uppercase font-bold">
                     <span class="text-yellow-400">Be the Penguine</span>
                     <br>
                     <span>of winter
@@ -37,15 +39,86 @@
                         stroke="currentColor" class="w-6 h-6 inline">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                    </svg>
+                    </svg>  
                     Buy Now </button>
             </div>
-            <div>
-                <img src="images/model.png" alt="" srcset="">
+            <div class="pt-8 sm:pt-0">
+                <img class="w-1/2 sm:w-full" src="images/model.png" alt="" srcset="">
             </div>
 
         </section>
     </header>
+    <main class="container mx-auto">
+        <!-- Woman -->
+        <section>
+            <h2 class="text-5xl font-bold">Woman Jacket</h2>
+            <div class="grid grid-cols-3 gap-7">
+                <!-- jacket 1-->
+                <div class="p-4 shadow-lg rounded-xl">
+                    <div class="p-5 bg-slate-100">
+                        <img src="images/jacket-1.png" alt="">
+                    </div>
+                    <h3 class="text-3xl font-semibold">Yellow Coat Jacket</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, architecto.</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-5xl font-bold text-price">$234</h2>
+                        <button class="uppercase bg-[#A4BC46] py-4 px-7 rounded-xl text-white font-semibold">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                class="w-6 h-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                            </svg>
+                            Buy Now </button>
+                    </div>
+                </div>
+
+                <!-- Jacket 2 -->
+                <div class="p-4 shadow-lg rounded-xl">
+                    <div class="p-5 bg-slate-100">
+                        <img src="images/jacket-2.png" alt="">
+                    </div>
+                    <h3 class="text-3xl font-semibold">Yellow Coat Jacket</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, architecto.</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-5xl font-bold text-price">$234</h2>
+                        <button class="uppercase bg-[#A4BC46] py-4 px-7 rounded-xl text-white font-semibold">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                            </svg>
+                            Buy Now </button>
+                    </div>
+                </div>
+                <!-- Jacket 3 -->
+                <div class="p-4 shadow-lg rounded-xl">
+                    <div class="p-5 bg-slate-100">
+                        <img src="images/jacket-3.png" alt="">
+                    </div>
+                    <h3 class="text-3xl font-semibold">Yellow Coat Jacket</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, architecto.</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-5xl font-bold text-price">$234</h2>
+                        <button class="uppercase bg-[#A4BC46] py-4 px-7 rounded-xl text-white font-semibold">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                            </svg>
+                            Buy Now </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Men's  -->
+        <h2 class="text-5xl font-bold">Men's Jacket</h2>
+
+        <section>
+
+        </section>
+
+    </main>
 
 
 </body>
