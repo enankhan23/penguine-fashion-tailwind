@@ -16,6 +16,7 @@
                         clifford: '#da373d',
                         penguin: '#FFFBF0',
                         price: '#FABE4C',
+                        back: '#E5E5E5',
                     }
                 }
             }
@@ -48,11 +49,11 @@
 
         </section>
     </header>
-    <main class="container mx-auto">
+    <main class="container mx-auto bg-back">
         <!-- Woman -->
         <section>
             <h2 class="text-5xl font-bold">Woman Jacket</h2>
-            <div class="grid grid-cols-3 gap-7">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
                 <!-- jacket 1-->
                 <div class="p-4 shadow-lg rounded-xl">
                     <div class="p-5 bg-slate-100">
@@ -112,13 +113,33 @@
             </div>
         </section>
         <!-- Men's  -->
-        <h2 class="text-5xl font-bold">Men's Jacket</h2>
 
+        <section class="pb-24">
+            <h2 class="text-5xl font-bold">Men's Jacket</h2>
+        </section>
+        <!-- Our Benefits -->
         <section>
-
+            <div class="grid grid-cols-2 gap-7">
+                <div class="rounded-lg flex bg-white p-6 justify-between">
+                    <img class="h-20 w-20" src="images/house.png" alt="" srcset="">
+                    <div>
+                        <h2 class="text-2xl">Find the perfect</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur omnis dignissimos placeat, nesciunt doloribus voluptatibus.</p>
+                    </div>
+                </div>
+                <div class=" row-span-3">
+                    <img src="images/shopping.png" alt="" srcset="">
+                </div>
+                <div class="h-32 bg-slate-500">3</div>
+                <div class="h-32 bg-slate-500">4</div>
+            </div>
+            
         </section>
 
     </main>
+    <footer>
+        <p>Buy from us</p>
+    </footer>
 
 
 </body>
